@@ -4,7 +4,7 @@
  Date: 13-09-2021
 */
 
-package com.example.feecollectionapplication.model.util;
+package com.example.feecollectionapplication.util;
 
 import android.content.Context;
 import android.graphics.Bitmap;
