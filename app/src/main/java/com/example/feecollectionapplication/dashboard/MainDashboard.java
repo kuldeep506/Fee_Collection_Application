@@ -48,5 +48,4 @@ public class MainDashboard extends AppCompatActivity {
             startActivity(intent);
         });
     }
-
 }
