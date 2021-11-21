@@ -12,6 +12,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 
 import com.example.feecollectionapplication.R;
+import com.example.feecollectionapplication.Registration.MainRegistration;
+import com.example.feecollectionapplication.Registration.RegistrationList;
+import com.example.feecollectionapplication.fee_details.FeeList;
 
 import java.util.Objects;
 
@@ -44,26 +47,6 @@ public class MainDashboard extends AppCompatActivity {
             Intent intent = new Intent(getApplicationContext(), FeeList.class);
             startActivity(intent);
         });
-    }
-
-    /**methods to show menu in action*/
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        MenuInflater inflater=getMenuInflater();
-        inflater.inflate(R.menu.menu, menu);
-        return super.onCreateOptionsMenu(menu);
-
-    }
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch(item.getItemId())
-        {
-            case R.id.about:
-                Intent intent =new Intent(MainDashboard.this, AboutDeveloper.class);
-                startActivity(intent);
-                break;
-        }
-        return true;
     }
 
 }
