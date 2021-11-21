@@ -26,9 +26,9 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.FileProvider;
 
-import com.example.bus.R;
-import com.example.bus.model_and_helper.Student;
-import com.example.bus.model_and_helper.Util;
+import com.example.feecollectionapplication.R;
+import com.example.feecollectionapplication.model.Student;
+import com.example.feecollectionapplication.util.Util;
 import com.google.firebase.Timestamp;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.FirebaseFirestore;
