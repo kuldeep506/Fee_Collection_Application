@@ -17,6 +17,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 
 import com.example.feecollectionapplication.R;
+import com.example.feecollectionapplication.full_details.FullDetails;
 import com.example.feecollectionapplication.model.Student;
 import com.squareup.picasso.Picasso;
 
